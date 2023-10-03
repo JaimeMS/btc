@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap 5 Website Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark menu-topo">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">
+              <img src="logo.png" alt="Logo" class="rounded logo" height="40" />
+            </a>
+          </li>
+          <li class="nav-item d-none d-sm-block">
+            <span class="nav-link text-white texto-trabalho">
+              Projeto: Engenharia de Dados com Biticoin
+            </span>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="p-5 text-white">
+      <div
+        class="col-md-4 conteudo-centro-login mx-auto shadow mb-5 bg-white rounded text-black col-sm-12 
+        "
+      >
+        <div class="container">
+          <div class="row">
+            <div class="menu-do-corpo-login col-sm-12 col-md-12">
+              <h4>Entrar</h4>
+            </div>
+            <form>
+              <div class="mb-3 mt-3">
+                <label for="email" class="form-label">E-mail:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="E-mail"
+                  name="email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="pwd" class="form-label">Senha:</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="pwd"
+                  placeholder="Senha"
+                  name="pswd"
+                />
+              </div>
+              <div class="mx-auto col-md-12 col-sm-12 text-center">                
+                <button type="button" class="btn btn-btc col-md-12 col-sm-12 text-center">
+                  Entrar
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-4 p-4 text-white rodape-login">
+      <p>Projeto: Engenharia de Dados com Biticoin</p>
+    </div>
+  </body>
+</html>
