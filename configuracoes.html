@@ -37,28 +37,29 @@
         <div class="container">
           <div class="row">
             <div class="menu-do-corpo-login col-sm-12 col-md-12">
-              <h4>Cadastre-se</h4>
+              <h4>Configurações</h4>
             </div>
             <form>
               <div class="mb-3 mt-3">
-                <label for="email" class="form-label">Nome:</label>
-                <input type="email" class="form-control"id="email" placeholder="E-mail" name="name"/>
+                <label for="email" class="form-label">Informe o valor para monitoramento:</label>
+                <input type="email" class="form-control"id="email" placeholder="R$" name="valor"/>
               </div>
-              <div class="mb-3 mt-3">
-                <label for="email" class="form-label">E-mail:</label>
-                <input type="email" class="form-control"id="email" placeholder="E-mail" name="email"/>
+              <div class="form-check mb-3">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="remember"> 
+                  Repetir em caso dequeda e alta
+                </label>
               </div>
-              <div class="mb-3">
-                <label for="pwd" class="form-label">Senha:</label>
-                <input type="password" class="form-control" id="pwd" placeholder="Senha"name="pswd" />
+              <div class="form-check mb-3">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="remember"> 
+                  Ativar alerta
+                </label>
               </div>
-              <div class="mb-3">
-                <label for="pwd" class="form-label">Confirme a senha:</label>
-                <input type="password" class="form-control" id="pwd" placeholder="Senha"name="confirm_pswd" />
-              </div>
+              
               <div class="mx-auto col-md-12 col-sm-12 text-center">
                 <button  type="button" class="btn btn-btc col-md-12 col-sm-12 text-center mb-3">
-                  Cadastrar
+                  Salvar
                 </button>
               </div>
             </form>
