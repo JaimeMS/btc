@@ -32,38 +32,33 @@
 
     <div class="p-5 text-white">
       <div
-        class="col-md-4 conteudo-centro-login mx-auto shadow mb-5 bg-white rounded text-black col-sm-12 
-        "
+        class="col-md-4 conteudo-centro-login0 mx-auto shadow mb-5 bg-white rounded text-black col-sm-12"
       >
         <div class="container">
           <div class="row">
             <div class="menu-do-corpo-login col-sm-12 col-md-12">
-              <h4>Entrar</h4>
+              <h4>Cadastre-se</h4>
             </div>
             <form>
               <div class="mb-3 mt-3">
+                <label for="email" class="form-label">Nome:</label>
+                <input type="email" class="form-control"id="email" placeholder="E-mail" name="name"/>
+              </div>
+              <div class="mb-3 mt-3">
                 <label for="email" class="form-label">E-mail:</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  placeholder="E-mail"
-                  name="email"
-                />
+                <input type="email" class="form-control"id="email" placeholder="E-mail" name="email"/>
               </div>
               <div class="mb-3">
                 <label for="pwd" class="form-label">Senha:</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="pwd"
-                  placeholder="Senha"
-                  name="pswd"
-                />
+                <input type="password" class="form-control" id="pwd" placeholder="Senha"name="pswd" />
               </div>
-              <div class="mx-auto col-md-12 col-sm-12 text-center">                
-                <button type="button" class="btn btn-btc col-md-12 col-sm-12 text-center">
-                  Entrar
+              <div class="mb-3">
+                <label for="pwd" class="form-label">Confirme a senha:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Senha"name="confirm_pswd" />
+              </div>
+              <div class="mx-auto col-md-12 col-sm-12 text-center">
+                <button  type="button" class="btn btn-btc col-md-12 col-sm-12 text-center mb-3">
+                  Cadastrar
                 </button>
               </div>
             </form>
